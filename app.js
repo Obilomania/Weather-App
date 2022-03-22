@@ -15,7 +15,7 @@ weather.temperature = {
 
 
 const KELVIN = 273;
-// API KEY
+// COPIED API KEY
 const key = "82005d27a116c2880c8f0fcb866998a0";
 
 
@@ -26,7 +26,7 @@ if('geolocation' in navigator){
     notificationElement.innerHTML = "<p>Browser doesn't Support Geolocation</p>";
 }
 
-// SET USER'S POSITION
+// Positioning
 function setPosition(position){
     let latitude = position.coords.latitude;
     let longitude = position.coords.longitude;
